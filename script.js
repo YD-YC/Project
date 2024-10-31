@@ -1,9 +1,9 @@
-// Alert on Button Click in Hero Section
+// Redirect to another page after button click in hero section
 document.addEventListener('DOMContentLoaded', () => {
   const startButton = document.querySelector('.btn');
 
   startButton.addEventListener('click', () => {
-    alert('Welcome! Thanks for getting started with us.');
+    window.location.href = 'page1.html';
   });
 });
 
